@@ -31,11 +31,12 @@
 
 // words();
 
-//Alternate results--------------------------------
+//Alternate random vocabulary--------------------------------
 
-const vocabulary = ['programmer','development','software','hardware','memory','RAM','CPU','technology','loop','console','javascript','HTML','CSS','application','web development','IT','array','conditionals','objects','DNS','IP','server','design','routes','database','URL','URI','host','domain','hash','encryption','functions','cyber security','put','patch','get','http','delete','patch','query','passwords','DHCP','root server','BIOS','ISP','users','OS','HTTPS','variables','code block','binary','buffer','load balancer','network','ping','trace router','pen testing','call stack','language','system design','user'];
+const vocabulary = ['programmer','development','software','hardware','memory','RAM','CPU','technology','loop','console','javascript','HTML','CSS','application','web development','IT','array','conditionals','objects','DNS','IP','server','design','routes','database','URL','URI','host','domain','hash','encryption','functions','cyber security','put','patch','get','http','delete','patch','query','passwords','DHCP','root server','BIOS','ISP','users','OS','HTTPS','variables','code block','binary','buffer','load balancer','network','ping','trace router','pen testing','call stack','language','system design','user','vocabulary','pipeline','schema','modules','compiler','hash table','call stack','ROM'];
 
 //10 millisecond random looped function
+
 
 function words() {
  
@@ -51,7 +52,12 @@ function words() {
     
 }
 
+
 words();
+
+//Insert the world vocabulary once the page load.
+window.onload = document.getElementById('output').innerHTML = vocabulary[61];
+
 
 
 //------------------------------------------------
