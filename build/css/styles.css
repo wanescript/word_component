@@ -9,7 +9,7 @@ body {
 
 .container {
     background-color: rgb(204, 185, 159);
-    padding: 20px;
+    padding: 10px;
     width: 720px;
     margin: auto;
     margin-top: 10%;
@@ -53,11 +53,11 @@ p   {
 @media screen and (max-width: 770px) {
 
     .container {
-        width: 400px;
+        width: 450px;
     }
 
     h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
   }
