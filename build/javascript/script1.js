@@ -56,7 +56,7 @@ function words() {
 words();
 
 //Insert the world vocabulary once the page load.
- window.onload = document.getElementById('output').innerHTML = `${vocabulary.length} vocabulary words`;
+ window.load = document.getElementById('output').innerHTML = `${vocabulary.length} vocabulary words`;
 
  
 
