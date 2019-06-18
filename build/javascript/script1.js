@@ -37,7 +37,6 @@ const vocabulary = ['programmer','development','software','hardware','memory','R
 
 //10 millisecond random looped function
 
-
 function words() {
  
   setInterval(function(){
@@ -53,11 +52,15 @@ function words() {
 }
 
 
-words();
+//quick word check
+// const checkVocabulary= vocabulary.indexOf('server');
+// console.log(checkVocabulary);
+
 
 //Insert the world vocabulary once the page load.
  window.load = document.getElementById('output').innerHTML = `${vocabulary.length} vocabulary words`;
 
+ 
  
 
 
