@@ -7,7 +7,7 @@ let counter = 0;
 
 
 
-timerNotice = () => {
+function timerNotice() {
  
     setInterval(function(){
     counter +=1;
@@ -45,4 +45,4 @@ words();
 
 //Insert the world vocabulary once the page load.
 output.innerHTML = `${vocabulary.length} vocabulary words`;
-timer.innerText= `Starting in 10 seconds...`;
+timer.innerText= `Starting in 5 seconds...`;
