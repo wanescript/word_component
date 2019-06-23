@@ -13,15 +13,13 @@ function timerNotice() {
     setInterval(function(){
    
     if(counter >=2){
-      timer.innerText= `Timer:${counter}secs ago`;
+      timer.innerText= `${counter}secs ago`;
     }else{
-      timer.innerText= `Timer:${counter}sec ago`;
+      timer.innerText= `${counter}sec ago`;
     }
 
-    
-    }, 1000)};
+}, 1000)};
 
-    
 timerNotice();
 
 
@@ -29,23 +27,17 @@ function startFunction(){
   setInterval(message,5000);
   setTimeout(function(){
    
-  if(counter>=5000){
-    clearInterval();
-
-   }else{
-    
+  if(counter<=5000){
     setInterval(function(){
       counter +=1
     },1000);
-  }
-})
 
-  }
+  }})}
   
   function message (){
-    timer.innerText= `Now.`
+    timer.innerText= `Current word.`
     
-  }
+}
   
   startFunction();
   timer.innerText= `Starting now starting...`;
