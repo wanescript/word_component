@@ -6,43 +6,47 @@ const vocabulary = ['programmer','development','software','hardware','memory','R
 output.innerText = `${vocabulary.length} vocabulary words`;
 
 const timer = document.getElementById('timer');
+const wordCount = document.getElementById('wordCount');
 let counter = 0;
 
+
+
+
+
 function timerNotice() {
- 
+
     setInterval(function(){
-   
+    counter +=1;
+      
     if(counter >=2){
       timer.innerText= `${counter}secs ago`;
     }else{
       timer.innerText= `${counter}sec ago`;
     }
 
+    
 }, 1000)};
 
-timerNotice();
+
 
 
 function startFunction(){
-  setInterval(message,5000);
-  setTimeout(function(){
-   
-  if(counter<=5000){
-    setInterval(function(){
-      counter +=1
-    },1000);
-
-  }})}
   
+  setInterval(message,5000);
+  
+    
+}
+
+
+ 
   function message (){
     timer.innerText= `Current word.`
+    clearInterval();
+    console.log('clear')
+    
     
 }
   
-  startFunction();
-  timer.innerText= `Starting now starting...`;
-
-
 //random looped function
 
 function words() {
@@ -51,14 +55,22 @@ function words() {
 }
 
 function randomWord (){
+  
 let randomVocabulary = vocabulary[Math.floor(Math.random()*vocabulary.length)];
 document.getElementById('output').innerText = randomVocabulary;
-  
-// View the previous and current strings outputted from the random looped array inside the console.
+
 console.log(randomVocabulary);
-};
+}
 
 
+  wordCount.innerText= `Total vocabulary count:  ${vocabulary.length}`;
+
+
+
+timer.innerText= `Now starting...`;
+
+timerNotice();
+startFunction();
 words();
 
 
