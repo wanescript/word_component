@@ -11,8 +11,6 @@ let counter = 0;
 
 
 
-
-
 function timerNotice() {
 
     setInterval(function(){
@@ -28,22 +26,18 @@ function timerNotice() {
 }, 1000)};
 
 
-
-
 function startFunction(){
   
   setInterval(message,5000);
   
-    
 }
 
 
  
-  function message (){
+function message (){
     timer.innerText= `Current word.`
     clearInterval();
     console.log('clear')
-    
     
 }
   
@@ -63,9 +57,7 @@ console.log(randomVocabulary);
 }
 
 
-  wordCount.innerText= `Total vocabulary count:  ${vocabulary.length}`;
-
-
+wordCount.innerText= `Total vocabulary count:  ${vocabulary.length}`;
 
 timer.innerText= `Now starting...`;
 
