@@ -27,15 +27,15 @@ setInterval(message,5000);
 }
 
 function message (){
-    timer.innerText= `Current word.`
-    clearInterval();
-    console.log('clear')
-    
+
+timer.innerText= `Current word.`
 }
   
 function words() {
  
-  setInterval(randomWord,5000);
+setInterval(randomWord,5000);
+setTimeout(wordIndex,2000);
+
 }
 
 function randomWord (){
@@ -45,6 +45,7 @@ document.getElementById('output').innerText = randomVocabulary;
 
 console.log(randomVocabulary);
 }
+
 
 output.innerText = `${vocabulary.length} vocabulary words`;
 wordCount.innerText= `Total vocabulary count:  ${vocabulary.length}`;
