@@ -33,8 +33,7 @@ timer.innerText= `Current word.`
   
 function words() {
  
-setInterval(randomWord,5000);
-setTimeout(wordIndex,2000);
+setInterval(randomWord,5000)
 
 }
 
@@ -55,9 +54,6 @@ timer.innerText= `Now starting...`;
 timerNotice();
 startFunction();
 words();
-
-
-
 
 
 
