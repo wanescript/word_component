@@ -16,19 +16,28 @@ function timerNotice() {
     }else{
       timer.innerText= `${counter}sec ago`;
     }
-
     
+    
+  
 }, 1000)};
 
 
 function startFunction(){
   
 setInterval(message,5000);
+//setInterval(resetTimer,2000)
 }
+
+// function resetTimer (){
+
+//   console.log('check')
+// }
 
 function message (){
 
 timer.innerText= `Current word.`
+
+
 }
   
 function words() {
