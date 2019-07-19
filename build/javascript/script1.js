@@ -24,14 +24,14 @@ function timerNotice() {
 
 function startFunction(){
   
-setInterval(message,5000);
-//setInterval(resetTimer,2000)
+setInterval(message,10000);
+setInterval(resetTimer,10000)
 }
 
-// function resetTimer (){
-
-//   console.log('check')
-// }
+function resetTimer (){
+counter = 0;
+ 
+}
 
 function message (){
 
@@ -42,7 +42,7 @@ timer.innerText= `Current word.`
   
 function words() {
  
-setInterval(randomWord,5000)
+setInterval(randomWord,10000)
 
 }
 
