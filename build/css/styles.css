@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    background-color: rgb(22, 4, 1);
+    background-color: rgb(1, 11, 22);
     width: 720px;
     margin: auto;
     margin-top: 10%;
@@ -37,7 +37,7 @@ body {
 }
 
 .output-style {
-    color: brown;
+    color: rgb(192, 5, 5);
     font-size:2.6rem;
 }
 
@@ -69,7 +69,7 @@ p   {
 .fab {
     font-size: 2rem;
     padding: 15px;
-    color: brown;   
+   color:rgb(136, 93, 0);   
 }
 
 

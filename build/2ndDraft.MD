@@ -1,4 +1,4 @@
-Current update of rough draft in javascript.
+Previous update of the second version in javascript.
 
 ```
 
