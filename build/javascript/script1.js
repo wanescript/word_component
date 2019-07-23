@@ -6,6 +6,7 @@ const timer = document.getElementById('timer');
 const wordCount = document.getElementById('wordCount');
 let counter = 0;
 
+
 wordCount.innerText= `Total vocabulary count: ${vocabulary.length}`;
 timer.innerText= `Now starting...`;
 

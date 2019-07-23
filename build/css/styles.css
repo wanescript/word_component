@@ -14,9 +14,10 @@ body {
 
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr 
+    grid-template-columns: 1fr 1fr  
     ;
     justify-items: center;
+    align-items: center;
     background-color: aliceblue;
     padding: 10px;
     border-top-right-radius: 8px;
@@ -80,8 +81,22 @@ p   {
 .fab {
     font-size: 2rem;
     padding: 15px;
-   color:rgb(136, 93, 0);   
+    color:rgb(136, 93, 0);   
 }
+
+
+
+#clock {
+    border-top-left-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.far:hover {
+    background-color: rgb(7, 7, 7);
+    color:whitesmoke;
+}
+
 
 
 @media screen and (max-width: 770px) {
