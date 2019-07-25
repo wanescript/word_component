@@ -95,17 +95,21 @@ p   {
         width: 500px;
     }
 
-    h3, .output-style {
-      font-size: 1.6rem;
+    .container h3 {
+      font-size: 1.5rem;
+    }
+    .container .output-style {
+      font-size: 1.7rem;
     }
 
-    .word_count{
+    .container .word_count{
         font-weight: 800;
         font-size:.8rem;
     }
 
   }
 
+/* mobile iPhone */
   @media screen and (max-width: 375px) {
 
     .container {
